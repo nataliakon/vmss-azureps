@@ -125,7 +125,7 @@
                   "autoUpgradeMinorVersion": true,
                   "settings": {
                     "fileUris": [
-                      "https://raw.githubusercontent.com/mariuszdotnet/vsts-on-vmss-hosted-agents/master/InstallVSOAgent.ps1"
+                      "https://raw.githubusercontent.com/nataliakon/vmss-azureps/master/VMSS-win-ARM-migration/VMSS-win-ARM-migration/Install-AzurePS.ps1"
                     ]
                   },
                   "protectedSettings": {
