@@ -1,0 +1,30 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmSku": {
+      "value": "Standard_D1_v2"
+    },
+    "vmssName": {
+      "value": "asmtoarm-vm"
+    },
+    "instanceCount": {
+      "value": 2
+    },
+    "adminUsername": {
+      "value": "azadm"
+    },
+    "adminPassword": {
+      "value": "!R37fallacy1505"
+    },
+    "existingVnetName": {
+      "value": "jh-pocvnetcir2"
+    },
+    "existingSubnetName": {
+      "value": "Infrastructure-Common-Services"
+    },
+    "existingVnetRGName": {
+      "value": "jh-pocvnetcir2-Migrated"
+    }
+  }
+}
